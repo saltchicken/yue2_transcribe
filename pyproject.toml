@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sheetsage-cli"
+version = "0.1.0"
+description = "CLI tool for transcribing audio to ABC notation using SheetSage2"
+requires-python = ">=3.8"
+dependencies = [
+    "transformers<4.45.0",
+    "accelerate",
+    "torch",
+    "torchaudio",
+    "mir_eval",
+    "pretty_midi",
+    "mido",
+    "scipy"
+]
+
+[project.scripts]
+# This creates a terminal command called 'sheetsage' that runs the main() function
+sheetsage = "sheetsage.__main__:main"
