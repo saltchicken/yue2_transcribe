@@ -1,5 +1,11 @@
 *.mp3
-cover-score/**
 outputs/**
 **.egg-info
 __pycache__
+
+cover-score/
+covers/
+newcovers/
+snes_cover/
+snes_playlist/
+
