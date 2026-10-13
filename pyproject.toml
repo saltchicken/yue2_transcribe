@@ -15,7 +15,8 @@ dependencies = [
     "mir_eval",
     "pretty_midi",
     "mido",
-    "scipy"
+    "scipy",
+    "openpyxl",
 ]
 
 [project.scripts]
