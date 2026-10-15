@@ -3,9 +3,4 @@ outputs/**
 **.egg-info
 __pycache__
 
-cover-score/
-covers/
-newcovers/
-snes_cover/
-snes_playlist/
-
+output/
