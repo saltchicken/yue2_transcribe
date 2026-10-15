@@ -1,6 +1,6 @@
-*.mp3
-outputs/**
 **.egg-info
 __pycache__
 
+
+*.mp3
 output/
